@@ -4,8 +4,8 @@ from streamlit_option_menu import option_menu
 import plotly.express as px 
 #import geopandas as go
 
-zomato_df = pd.read_excel(r"F:\data science\VS\DataScience projects\zomato\zomato.xlsx")
-zomato_exploded_df = pd.read_excel(r"F:\data science\VS\DataScience projects\zomato\zomato_exploded.xlsx")
+zomato_df = pd.read_excel(r"https://github.com/NishanthPalani/Zomato_data_visualization/blob/main/zomato.xlsx")
+zomato_exploded_df = pd.read_excel(r"https://github.com/NishanthPalani/Zomato_data_visualization/blob/main/zomato_exploded.xlsx")
 
 ## Below code will do page title(tab Name) configuration
 st.set_page_config(page_title= "Zomato data Visualization",
