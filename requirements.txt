@@ -3,6 +3,3 @@ numpy
 streamlit
 streamlit_option_menu
 plotly.express
-seaborn
-matplotlib.pyplot
-plotly.graph_objects
