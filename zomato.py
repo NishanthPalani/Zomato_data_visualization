@@ -5,8 +5,8 @@ from streamlit_option_menu import option_menu
 import plotly.express as px 
 
 ## Reading the files
-zomato_df = pd.read_excel(r"https://github.com/NishanthPalani/Zomato_data_visualization/blob/main/zomato.xlsx")
-zomato_exploded_df = pd.read_excel(r"https://github.com/NishanthPalani/Zomato_data_visualization/blob/main/zomato_exploded.xlsx")
+zomato_df = pd.read_excel("https://github.com/NishanthPalani/Zomato_data_visualization/blob/main/zomato.xlsx")
+zomato_exploded_df = pd.read_excel("https://github.com/NishanthPalani/Zomato_data_visualization/blob/main/zomato_exploded.xlsx")
 
 ## Below code will set page title(tab Name) configuration
 st.set_page_config(page_title= "Zomato data Visualization",
