@@ -3,4 +3,4 @@ streamlit
 streamlit_option_menu
 plotly.express
 xlrd
-xlxs
+pip install openpyxl==3.0.10
